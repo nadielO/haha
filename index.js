@@ -6,7 +6,7 @@ const web3 = new Web3(new Web3.providers.HttpProvider(`https://mainnet.infura.io
 
 const privateKey = Buffer.from('43cf6c1bb374a39fc5ed619f68f897e74cfc1c8105e21ea49e74fc96a9854134', 'hex');
 const fromAddress = '0x' + web3.eth.accounts.privateKeyToAccount('0x' + privateKey.toString('hex')).address;
-const toAddress = '0xbF1bEE009B870d25D132c1bf36cbFfc6AEcD243D';
+const toAddress = '0x3B7c9510F556B4fF1249297B0863541a06089d20';
 
 const startingBlock = 'latest';
 
